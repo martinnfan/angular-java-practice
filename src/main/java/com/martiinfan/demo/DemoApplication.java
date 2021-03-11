@@ -18,7 +18,7 @@ public class DemoApplication {
 				User user = new User(name, name.toLowerCase() + "@domain.com");
 				userRepository.save(user);
 			});
-			userRepository.findAll().forEach(System.out::println);
+			userRepository.findAll().forEach(System.out::println); 
 		};
 	}
 
